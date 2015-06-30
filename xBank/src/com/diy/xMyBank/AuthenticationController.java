@@ -1,6 +1,5 @@
 package com.diy.xMyBank;
 
-import java.io.PrintStream;
 import java.util.ResourceBundle;
 
 public class AuthenticationController

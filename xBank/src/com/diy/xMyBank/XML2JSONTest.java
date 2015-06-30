@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.PrintStream;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.XML;
@@ -45,7 +45,8 @@ public class XML2JSONTest
     }
   }
   
-  private void Log(String string)
+  @SuppressWarnings("unused")
+private void Log(String string)
   {
     System.out.println(getClass().getCanonicalName() + " => " + string);
   }
